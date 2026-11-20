@@ -1,0 +1,13 @@
+{
+  "name": "stud-algorithms-js",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Решения лабораторных работ по алгоритмам и структурам данных на JavaScript",
+  "scripts": {
+    "build": "node tools/build-solutions.mjs",
+    "test": "node --test tests/site.test.mjs tests/solutions.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
