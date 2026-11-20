@@ -912,7 +912,7 @@ function binarySearchVisual() {
   function strip(array, { lo, hi, mid, found }) {
     return el('div', { className: 'cells' }, array.map((value, i) => el('div', {
       className: 'cell'
-        + (i < lo || i > hi ? ' out' : '')
+        + (i < lo || i > hi ? ' dim' : '')
         + (i === mid ? (found ? ' found' : ' mid') : ''),
     },
     el('span', { className: 'cell-value' }, show(value)),

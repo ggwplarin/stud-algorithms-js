@@ -500,7 +500,7 @@ code-editor.modified .reset { display: block; }
   text-align: center;
   transition: opacity .15s;
 }
-.cell.out { opacity: .3; border-color: var(--line); }
+.cell.dim { opacity: .3; border-color: var(--line); }
 .cell.mid { border-color: var(--trace); box-shadow: 0 0 0 3px color-mix(in srgb, var(--trace) 22%, transparent); }
 .cell.found { border-color: var(--ok); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ok) 22%, transparent); }
 .cell.sorted { border-color: color-mix(in srgb, var(--ok) 55%, transparent); background: color-mix(in srgb, var(--ok) 10%, var(--panel)); }
